@@ -1,0 +1,7 @@
+// ✅ RegisterComponent HTML (auth/register/register.component.html)
+<form (ngSubmit)="register()">
+  <input [(ngModel)]="name" name="name" placeholder="Name" required />
+  <input [(ngModel)]="email" name="email" placeholder="Email" required />
+  <input [(ngModel)]="password" name="password" type="password" placeholder="Password" required />
+  <button type="submit">Register</button>
+</form>
